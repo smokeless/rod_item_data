@@ -1,7 +1,14 @@
 import requests
 from bs4 import BeautifulSoup
 import re
-import getopt
+
+'''
+todo:
+add support for selecting a file from the command line.
+add support for searching for items that don't immediately pop on rodpedia
+add threading to speed up the searching
+create a local database for searching before hitting rodpedia
+'''
 
 
 def get_item_info(item:str)->dict:
