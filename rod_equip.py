@@ -3,6 +3,11 @@ from bs4 import BeautifulSoup
 import re
 
 '''
+This currently only works with rodpedia, the file must be named items and in the same
+directory as the script.
+
+
+
 todo:
 add support for selecting a file from the command line.
 add support for searching for items that don't immediately pop on rodpedia
